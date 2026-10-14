@@ -7,7 +7,7 @@ I recommend **GitHub Pages**. Cloudflare Pages and Netlify are both good, but Gi
 - **Your iCloud email is safest with it.** Pages only needs a few records **added** at your current DNS provider. Cloudflare Pages wants you to move the whole domain's DNS to Cloudflare, which means copying the iCloud mail records over by hand, and one typo breaks email.
 - **One account, not two.** The code is on GitHub anyway, and Pages is a setting on that same repo.
 - **Free, with automatic HTTPS.** It serves `/404.html`, and `/expressed/` maps to `expressed/index.html` with no setup.
-- **The trade-off: the repo must be public** on the free plan. That's fine here. There are no secrets in it, only the website itself. Your commit name and email (`Scott <scott@east73studio.com>`) will also be public. To hide the email, see "Optional: keep your email private" at the bottom.
+- **The trade-off: the repo must be public** on the free plan. That's fine here. There are no secrets in it, only the website itself. Your commit name and email (`Scott <hello@east73studio.com>`) will also be public, which is fine since hello@ is already the public contact address.
 
 ---
 
@@ -37,7 +37,7 @@ I recommend **GitHub Pages**. Cloudflare Pages and Netlify are both good, but Gi
 ## Step 3: Point the domain at GitHub (DNS)
 
 > ### ⚠️ Read this first: protect your iCloud email
-> Your domain receives email through **iCloud+ custom email domain** (scott@east73studio.com). That depends on DNS records that are already set up. **Do not change or delete any of them:**
+> Your domain receives email through **iCloud+ custom email domain**. That depends on DNS records that are already set up. **Do not change or delete any of them:**
 >
 > | Type | Host | Looks like | Leave alone |
 > |---|---|---|---|
@@ -73,7 +73,7 @@ These records only control where web browsers go. Email uses the MX records, whi
 
 DNS changes usually take effect within 30 minutes, but can take up to a day.
 
-**Check email still works:** send yourself a message at scott@east73studio.com from another account, and reply to it.
+**Check email still works:** send a message to hello@east73studio.com from another account, and reply to it.
 
 ## Step 4: Make sure HTTPS works
 
