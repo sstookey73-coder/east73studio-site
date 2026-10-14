@@ -22,7 +22,7 @@
   --rule: #E4DFD6;
   --accent: #1C1B19;
   --placeholder: #E9E5DD;
-  --placeholder-ink: #8A857B;
+  --placeholder-ink: #5F5A52;
 
   /* Expressed (exact values from the app's tailwind.config.js: bar.bg / bar.accent) */
   --expressed-bg: #141414;

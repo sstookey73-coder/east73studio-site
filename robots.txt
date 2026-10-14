@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://east73studio.com/sitemap.xml
