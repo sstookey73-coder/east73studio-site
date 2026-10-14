@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Expressed: a home-bar companion · East 73 Studio</title>
+  <!-- AFTER LAUNCH: uncomment and fill in {{APP_STORE_ID}} (the number in your App Store URL) -->
+  <!-- <meta name="apple-itunes-app" content="app-id={{APP_STORE_ID}}"> -->
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/saira-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<!--
+  APP STORE FLAG (the one place to flip at launch):
+    data-app-store="soon"  -> muted "Coming soon to the App Store" pill
+    data-app-store="live"  -> Apple's black "Download on the App Store" badge
+  When going live, also fill in {{APP_STORE_URL}} below and add Apple's badge
+  file as /images/expressed/app-store-badge.svg (download it from
+  https://developer.apple.com/app-store/marketing/guidelines/).
+-->
+<body data-app-store="soon">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="wordmark" href="/" aria-label="East 73 Studio, home">
+        <img src="/images/brand/east73-studio-logo.svg" alt="East 73 Studio" width="156" height="59">
+      </a>
+      <a class="header-link" href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="expressed-hero">
+      <div class="container">
+        <img class="app-icon" src="/images/expressed/app-icon-256.webp" alt="Expressed app icon" width="112" height="112">
+        <h1>Expressed</h1>
+        <p class="tagline">A home-bar companion that shows what you can make with what you have.</p>
+
+        <span class="appstore-soon">Coming soon to the App Store</span>
+        <!-- {{APP_STORE_URL}} -->
+        <a class="appstore-live" href="#" data-placeholder="APP_STORE_URL">
+          <img src="/images/expressed/app-store-badge.svg" alt="Download on the App Store" width="144" height="48" loading="lazy">
+        </a>
+      </div>
+    </section>
+
+    <section class="section section--flush" aria-labelledby="features-label">
+      <div class="container">
+        <h2 class="label" id="features-label">Features</h2>
+        <div class="features">
+          <article class="feature">
+            <div class="phone">
+              <!-- Replace with: <img class="fade" src="/images/expressed/screen-can-make.webp" alt="..." loading="lazy"> -->
+              <div class="screen placeholder">Screenshot</div>
+            </div>
+            <h3>Can Make, Almost, Browse</h3>
+            <p>See what your bar can make right now.</p>
+          </article>
+          <article class="feature">
+            <div class="phone">
+              <!-- Replace with: <img class="fade" src="/images/expressed/screen-bottle-scan.webp" alt="..." loading="lazy"> -->
+              <div class="screen placeholder">Screenshot</div>
+            </div>
+            <h3>Bottle scan</h3>
+            <p>Add bottles by photographing the label.</p>
+          </article>
+          <article class="feature">
+            <div class="phone">
+              <!-- Replace with: <img class="fade" src="/images/expressed/screen-discovery.webp" alt="..." loading="lazy"> -->
+              <div class="screen placeholder">Screenshot</div>
+            </div>
+            <h3>AI discovery</h3>
+            <p>Ask for a drink by mood, flavor, or ingredient.</p>
+          </article>
+          <article class="feature">
+            <div class="phone">
+              <!-- Replace with: <img class="fade" src="/images/expressed/screen-pantry.webp" alt="..." loading="lazy"> -->
+              <div class="screen placeholder">Screenshot</div>
+            </div>
+            <h3>Pantry</h3>
+            <p>Track the fresh stuff too.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <nav class="section subnav" aria-label="Expressed information">
+      <div class="container">
+        <ul>
+          <li><a href="/expressed/privacy/">Privacy</a></li>
+          <li><a href="/expressed/terms/">Terms</a></li>
+          <li><a href="/expressed/support/">Support</a></li>
+        </ul>
+      </div>
+    </nav>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div>
+        <p class="label">Contact</p>
+        <!-- {{CONTACT_EMAIL}}: confirm hello@east73studio.com exists in iCloud before launch -->
+        <a class="footer-email" href="mailto:hello@east73studio.com">hello@east73studio.com</a>
+      </div>
+      <div class="footer-meta">
+        <p>© <span data-year>2026</span> East 73 Studio LLC · Houston, Texas</p>
+        <ul class="footer-links" aria-label="Expressed legal and support">
+          <li><a href="/expressed/privacy/">Expressed Privacy</a></li>
+          <li><a href="/expressed/terms/">Terms</a></li>
+          <li><a href="/expressed/support/">Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/site.js" defer></script>
+</body>
+</html>

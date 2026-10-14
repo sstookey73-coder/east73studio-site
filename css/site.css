@@ -335,3 +335,5 @@ body[data-app-store="live"] .appstore-live { display: inline-flex; }
   html { scroll-behavior: auto; }
   * { transition: none !important; animation: none !important; }
 }
+
+.section--flush { border-top: 0; }
