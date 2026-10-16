@@ -227,14 +227,18 @@ a:hover { text-decoration-color: currentColor; }
 }
 .ratio-book { aspect-ratio: 4 / 3; }
 .ratio-book .placeholder-book { width: 42%; aspect-ratio: 8.5 / 11; background: #DCD7CD; }
-.posters-fan { aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center; }
-.posters-fan span {
-  width: 28%; aspect-ratio: 2 / 3; background: #DCD7CD; border: 1px solid var(--paper);
-  margin: 0 -3%;
+.posters-fan {
+  aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center;
+  background: var(--placeholder);
 }
-.posters-fan span:nth-child(1) { transform: rotate(-7deg) translateY(6px); }
-.posters-fan span:nth-child(3) { transform: rotate(7deg) translateY(6px); }
-.posters-fan span:nth-child(2) { position: relative; z-index: 1; }
+.posters-fan img {
+  width: 30%; aspect-ratio: 3 / 4; object-fit: cover;
+  margin: 0 -2.5%;
+  box-shadow: 0 1px 2px rgb(28 27 25 / 0.12), 0 6px 16px rgb(28 27 25 / 0.10);
+}
+.posters-fan img:nth-child(1) { transform: rotate(-7deg) translateY(8px); }
+.posters-fan img:nth-child(3) { transform: rotate(7deg) translateY(8px); }
+.posters-fan img:nth-child(2) { position: relative; z-index: 1; transform: scale(1.08); }
 
 /* ---------- Home: about ---------- */
 .about p { font-family: var(--font-serif); font-size: clamp(22px, 2.6vw, 28px); line-height: 1.45; max-width: 34em; }

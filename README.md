@@ -63,7 +63,7 @@ Until you add the real images, the site shows gray placeholder blocks. To find e
   - `expressed/index.html`: each `<div class="screen placeholder">Screenshot</div>` has a comment above it with the exact `<img>` line to swap in.
   - `index.html`: the Expressed card has one more screenshot placeholder.
 - [ ] **Spotted cover.** In `index.html`, replace the `<div class="card-media placeholder ratio-book" …>` block with `<img class="card-media fade" src="/images/spotted-cover.webp" alt="Cover of Spotted: A Field Guide to the Fifty States" loading="lazy">`. Any 4:3 image works, such as the cover on a plain background.
-- [ ] **3 state posters.** Same idea: replace the `posters-fan` block with one 4:3 image of three posters (for example `images/posters.webp`).
+- [x] **3 state posters.** Done: Colorado, Utah, New Mexico in `images/posters/` (Wyoming saved there as a spare). Same idea: replace the `posters-fan` block with one 4:3 image of three posters (for example `images/posters.webp`).
 
 To convert a PNG or JPG to WebP, export as WebP from Preview or Photoshop, or use https://squoosh.app (it runs in your browser and nothing is uploaded).
 
