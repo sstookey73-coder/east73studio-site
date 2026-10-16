@@ -59,7 +59,7 @@ Until you add the real images, the site shows gray placeholder blocks. To find e
 ### Images
 
 - [x] **Expressed app icon.** Already in place (`images/expressed/app-icon-256.webp` / `-512.webp`), converted from the app repo's 1024px icon.
-- [ ] **Expressed screenshots.** Done: Can Make, AI discovery, Pantry, and My Bottles (home card). Still needed: **Bottle scan** (`screen-bottle-scan.webp`), shot with an unbranded bottle. Save as WebP in `images/expressed/`, for example `screen-can-make.webp`, `screen-bottle-scan.webp`, `screen-discovery.webp`, `screen-pantry.webp`. Use straight screenshots with no device frame (the site draws the phone). Around 600px wide is plenty.
+- [x] **Expressed screenshots.** Done: Can Make, Bottle scan (East 73 Reserve label), AI discovery, Pantry, and My Bottles (home card). Save as WebP in `images/expressed/`, for example `screen-can-make.webp`, `screen-bottle-scan.webp`, `screen-discovery.webp`, `screen-pantry.webp`. Use straight screenshots with no device frame (the site draws the phone). Around 600px wide is plenty.
   - `expressed/index.html`: each `<div class="screen placeholder">Screenshot</div>` has a comment above it with the exact `<img>` line to swap in.
   - `index.html`: the Expressed card has one more screenshot placeholder.
 - [ ] **Spotted cover.** In `index.html`, replace the `<div class="card-media placeholder ratio-book" …>` block with `<img class="card-media fade" src="/images/spotted-cover.webp" alt="Cover of Spotted: A Field Guide to the Fifty States" loading="lazy">`. Any 4:3 image works, such as the cover on a plain background.
