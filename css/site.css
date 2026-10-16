@@ -257,7 +257,7 @@ a:hover { text-decoration-color: currentColor; }
   background: var(--expressed-surface);
   color: #8A8A8A;
 }
-.phone .screen img { width: 100%; height: 100%; object-fit: cover; }
+.phone .screen img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
 
 /* ---------- Expressed page ---------- */
 .expressed-hero {
