@@ -71,8 +71,8 @@ To convert a PNG or JPG to WebP, export as WebP from Preview or Photoshop, or us
 
 | Placeholder | Where | What to do |
 |---|---|---|
-| `{{SPOTTED_URL}}` | `index.html` | Replace `href="#"` on "Get the book →" with the Amazon link |
-| `{{POSTERS_URL}}` | `index.html` | Replace `href="#"` on "Shop posters →" with the shop link |
+| ~~`{{SPOTTED_URL}}`~~ | `index.html` | ✅ Done: https://www.amazon.com/dp/B0HHXNTZB6 |
+| ~~`{{POSTERS_URL}}`~~ | `index.html` | ✅ Done: https://www.etsy.com/shop/East73Studio |
 | `{{CONTACT_EMAIL}}` | footer of every page, Support, Privacy, Terms | Currently `hello@east73studio.com`. **Create that alias in iCloud before launch** (see below). To use a different address, find-and-replace across all files |
 | `{{ABOUT_TEXT}}` | `index.html`, About section | The brief's draft is in place. Approve or edit it |
 | Home headline | `index.html`, `<h1>` | "Small, carefully made things." is a suggestion. Change it freely |
