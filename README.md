@@ -105,4 +105,4 @@ To convert a PNG or JPG to WebP, export as WebP from Preview or Photoshop, or us
 
 - **Colors and fonts.** All of them live in `:root` at the top of `css/site.css`. The Expressed colors (`#141414`, `#EF9F27`) are the exact values from the app's `tailwind.config.js`.
 - **Fonts are self-hosted** rather than loaded from Google Fonts, so visitors' browsers never contact a third party. That keeps the privacy story to "no third parties, no cookies."
-- **Logo files** come from the East 73 logo generator (`C:\Users\sstoo\.claude\east73_logo`). If the logo changes, copy the new SVGs into `images/brand/` and rerun `tools/make_images.py`. That script needs `pip install pillow resvg-py`.
+- **Logo files** come from the East 73 logo generator (`C:\Users\sstoo\OneDrive\East 73 Studio LLC\Logo`). If the logo changes, copy the new SVGs into `images/brand/` and rerun `tools/make_images.py`. That script needs `pip install pillow resvg-py`.
