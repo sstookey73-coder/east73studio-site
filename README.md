@@ -75,7 +75,7 @@ To convert a PNG or JPG to WebP, export as WebP from Preview or Photoshop, or us
 | ~~`{{POSTERS_URL}}`~~ | `index.html` | ✅ Done: https://www.etsy.com/shop/East73Studio |
 | `{{CONTACT_EMAIL}}` | footer of every page, Support, Privacy, Terms | Currently `hello@east73studio.com`. **Create that alias in iCloud before launch** (see below). To use a different address, find-and-replace across all files |
 | `{{ABOUT_TEXT}}` | `index.html`, About section | The brief's draft is in place. Approve or edit it |
-| Home headline | `index.html`, `<h1>` | "Small, carefully made things." is a suggestion. Change it freely |
+| ~~Home headline~~ | `index.html`, `<h1>` | ✅ Done: "Field notes, in many forms." |
 | `{{DATE}}`, `[TO BE WRITTEN]` | Privacy, Terms | Paste in the real text when it's drafted. The app repo's `PRIVACY_POLICY.md` is a starting point |
 | FAQ | Support | Replace the three `[Question …]` placeholders |
 

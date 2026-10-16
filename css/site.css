@@ -180,6 +180,7 @@ a:hover { text-decoration-color: currentColor; }
   font-size: clamp(38px, 6.4vw, 72px);
   font-weight: 400;
   max-width: 16ch;
+  text-wrap: balance;
   margin-bottom: 28px;
 }
 .intro h1 em { font-style: italic; }
